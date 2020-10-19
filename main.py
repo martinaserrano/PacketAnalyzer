@@ -2,10 +2,18 @@
 import scapy.all as scapy
 import argparse
 import os
+import logging
 from scapy.layers import http
+formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+logger = logging.getLogger('Packets.log')
+logger.setLevel(logging.DEBUG)
+fh = logging.FileHandler('Packets.log')
+fh.setLevel(logging.DEBUG)
+fh.setFormatter(formatter)
+logger.addHandler(fh)
 
-synIpDictonary = {}
-boundary = 3
+synIpDictionary = {} #a dictionary which records the identified ip
+boundary = 5
 
 
 def get_interface():
@@ -20,42 +28,59 @@ def sniff(iface):
 
 
 def process_packet(packet):
-    ipSrc = packet.sprintf('%IP.src%')
+    ipSource = packet.sprintf('%IP.src%')
+    ipDest = packet.sprintf('%IP.dst%')
+    packetInfo = ""
 
     if packet.haslayer(scapy.TCP):
-        flagsTCP = packet.sprintf('%TCP.flags%')
-        checkSynFlood(ipSrc, flagsTCP)
+        TCPflags = packet.sprintf('%TCP.flags%')
+        packetInfo = "Ip Source:" + ipSource + " Ip Destination: " + ipDest + " Flags: " + TCPflags + " Protocol: TCP"
+        checkSynFlood(ipSource, TCPflags)
+    if packet.haslayer(scapy.UDP):
+        UDPdestport = packet.sprintf('%UDP.dport%')
+        UDPsourceport= packet.sprintf('%UDP.sport%')
+        packetInfo = "Ip Source: " + ipSource + " UDP Source Port: " + UDPsourceport + " Ip Destination: " + ipDest + " Destination Port: " + UDPdestport +" Protocol: UDP" #print info about UDP
+    if packet.haslayer(scapy.ICMP):
+        IcmpType = packet.sprintf('%ICMP.type%')
+        IcmpCode = packet.sprintf('%ICMP.code%')
+        IcmpChecksum = packet.sprintf('%ICMP.chksum%')
+        packetInfo = "IP Source: " + ipSource + "IP Destination: " + ipDest+ " Type: " + IcmpType + " Code: " + IcmpCode + " Checksum: " + IcmpChecksum + " Protocol: ICMP"
+    if packetInfo != "":
+        print(packetInfo)
+        logger.info(packetInfo)
 
 
-def checkSynFlood(ipSrc, flagsTCP):
-    if flagsTCP == 'S':
-        if ipSrc in synIpDictonary:
-            synIpDictonary[ipSrc] += 1
+def checkSynFlood(ipSource, TCPflags):
+    if TCPflags == 'S':
+        if ipSource in synIpDictionary:
+            synIpDictionary[ipSource] += 1
         else:
-            synIpDictonary[ipSrc] = 1
-        print('IP source: ' + ipSrc + ' TCP flags:' + flagsTCP)
+            synIpDictionary[ipSource] = 1
 
-    if ipSrc in synIpDictonary and flagsTCP == 'A':
-        synIpDictonary[ipSrc] -= 1
 
-    if ipSrc in synIpDictonary and synIpDictonary[ipSrc] > boundary:
-        # log
-        print('sospetto synflood da IP: ' + ipSrc)
+    if ipSource in synIpDictionary and TCPflags == 'A':
+        synIpDictionary[ipSource] -= 1
+
+    if ipSource in synIpDictionary and synIpDictionary[ipSource] > boundary:
+        suspect = "Suspect synflood from IP: " + ipSource
+        print(suspect)
+        synFloodLog = open('log.txt', 'a')
+        synFloodLog.write(suspect)
 
 
 iface = get_interface()
 
-listInterface = os.listdir('/sys/class/net/')
+listInterfaces = os.listdir('/sys/class/net/')
 i = 0
-print('digita:\n')
+print('SELECT:\n')
 
-for iface in listInterface:
-    print(str(i) + ' per l interfaccia: ' + iface + '\n')
+for iface in listInterfaces:
+    print(str(i) + '. interface: ' + iface + '\n')
     i += 1
 selection = -1
-while len(listInterface) <= selection or selection < 0:
+while len(listInterfaces) <= selection or selection < 0:
     selection = int(input())
 
-ifaceSelected = listInterface[selection]
+ifaceSelected = listInterfaces[selection]
 
 sniff(ifaceSelected)
