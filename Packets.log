@@ -246,3 +246,553 @@ Ip Source:10.0.2.15 Ip Destination: 104.77.185.113 Flags: A Protocol: TCP
 2020-10-19 23:18:07 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
 2020-10-19 23:18:17 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
 2020-10-19 23:18:17 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:26:48 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:26:48 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:26:50 INFO     Ip Source: 10.0.2.15 UDP Source Port: 36007 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-19 23:26:50 INFO     Ip Source: 10.0.2.15 UDP Source Port: 36007 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-19 23:26:50 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: PA Protocol: TCP
+2020-10-19 23:26:50 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 36007 Protocol: UDP
+2020-10-19 23:26:50 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 36007 Protocol: UDP
+2020-10-19 23:26:50 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-19 23:26:50 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:00 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:00 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:27:10 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:10 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:27:20 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:20 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:27:31 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:31 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:27:41 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.105 Flags: A Protocol: TCP
+2020-10-19 23:27:41 INFO     Ip Source:104.77.185.105 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-19 23:32:57 INFO     Ip Source:10.0.2.15 Ip Destination: 104.77.185.113 Flags: A Protocol: TCP
+2020-10-19 23:32:57 INFO     Ip Source:104.77.185.113 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:53 INFO     Ip Source: 10.0.2.15 UDP Source Port: 56483 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:53 INFO     Ip Source: 10.0.2.15 UDP Source Port: 56483 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:53 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 56483 Protocol: UDP
+2020-10-20 15:44:53 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 56483 Protocol: UDP
+2020-10-20 15:44:53 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: S Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: PA Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44649 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:54 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44649 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:54 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44649 Protocol: UDP
+2020-10-20 15:44:54 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44649 Protocol: UDP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: S Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:44:54 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39673 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:55 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39673 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:55 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39673 Protocol: UDP
+2020-10-20 15:44:55 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39673 Protocol: UDP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: S Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:44:55 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:56 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source: 10.0.2.15 UDP Source Port: 40018 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:57 INFO     Ip Source: 10.0.2.15 UDP Source Port: 40018 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:44:57 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 40018 Protocol: UDP
+2020-10-20 15:44:57 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 40018 Protocol: UDP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: S Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:57 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:44:58 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:45:00 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:45:00 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35953 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35953 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35953 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35953 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: S Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 37310 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 37310 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 37310 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 37310 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39770 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39770 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 53782 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 53782 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: S Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 49714 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 49714 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39770 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39770 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 49370 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 49370 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: PA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 53782 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 53782 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 42354 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 42354 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 42354 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 49714 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 49714 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 42354 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 33300 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 33300 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 59821 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 10.0.2.15 UDP Source Port: 59821 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 33300 Protocol: UDP
+2020-10-20 15:45:03 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 33300 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 59821 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 59821 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39410 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 39410 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 58765 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 58765 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 49370 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 49370 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 60288 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 60288 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 58765 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 58765 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57558 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57558 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 60288 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 60288 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57558 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57558 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39410 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 39410 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44217 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44217 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44217 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44217 Protocol: UDP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: S Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:04 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: FA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: R Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: S Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:05 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: S Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:06 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:07 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:07 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:07 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:07 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:10 INFO     Ip Source: 10.0.2.15 UDP Source Port: 46421 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:10 INFO     Ip Source: 10.0.2.15 UDP Source Port: 46421 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:10 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 46421 Protocol: UDP
+2020-10-20 15:45:10 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 46421 Protocol: UDP
+2020-10-20 15:45:12 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: PA Protocol: TCP
+2020-10-20 15:45:12 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: FA Protocol: TCP
+2020-10-20 15:45:12 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:12 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: FA Protocol: TCP
+2020-10-20 15:45:12 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:13 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:13 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:14 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:14 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:14 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:14 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:15 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:15 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:20 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57141 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:20 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57141 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:20 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57141 Protocol: UDP
+2020-10-20 15:45:20 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57141 Protocol: UDP
+2020-10-20 15:45:20 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: S Protocol: TCP
+2020-10-20 15:45:20 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:20 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source: 10.0.2.15 UDP Source Port: 41666 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:21 INFO     Ip Source: 10.0.2.15 UDP Source Port: 41666 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:21 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 41666 Protocol: UDP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 41666 Protocol: UDP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: S Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:23 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:23 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:24 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:24 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:24 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:24 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:26 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:26 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:31 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:45:31 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:31 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:31 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:34 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:36 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:36 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:41 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:41 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:45:41 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:41 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:44 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:44 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:45 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:45 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:45 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:45 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:46 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:46 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:52 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:45:52 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:45:52 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:52 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:52 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:45:53 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44619 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:53 INFO     Ip Source: 10.0.2.15 UDP Source Port: 44619 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:45:53 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: PA Protocol: TCP
+2020-10-20 15:45:53 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44619 Protocol: UDP
+2020-10-20 15:45:53 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 44619 Protocol: UDP
+2020-10-20 15:45:53 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:53 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:45:53 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:45:54 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:45:54 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:54 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:45:54 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:54 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:54 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:45:55 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:45:55 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:56 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:45:56 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:45:56 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:45:56 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:45:56 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:45:57 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source: 10.0.2.17 UDP Source Port: mdns Ip Destination: 224.0.0.251 Destination Port: mdns Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: 10.0.2.17 UDP Source Port: mdns Ip Destination: 224.0.0.251 Destination Port: mdns Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: ?? UDP Source Port: mdns Ip Destination: ?? Destination Port: mdns Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: ?? UDP Source Port: mdns Ip Destination: ?? Destination Port: mdns Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: ?? UDP Source Port: 49343 Ip Destination: ?? Destination Port: hostmon Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: 10.0.2.17 UDP Source Port: 49343 Ip Destination: 224.0.0.252 Destination Port: hostmon Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:02 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:02 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:46:03 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:03 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:03 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:04 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:46:04 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:04 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:04 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:04 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:46:04 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:05 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:05 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:05 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:05 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:46:05 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:05 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:05 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:07 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:46:07 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:09 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:09 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:10 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:11 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.255 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:46:12 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:46:12 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: A Protocol: TCP
+2020-10-20 15:46:12 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:12 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:14 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:46:14 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:15 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.67 Flags: A Protocol: TCP
+2020-10-20 15:46:15 INFO     Ip Source:216.58.206.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:15 INFO     Ip Source:10.0.2.15 Ip Destination: 13.35.43.17 Flags: A Protocol: TCP
+2020-10-20 15:46:15 INFO     Ip Source:13.35.43.17 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source: 10.0.2.15 UDP Source Port: 40461 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:46:17 INFO     Ip Source: 10.0.2.15 UDP Source Port: 40461 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 40461 Protocol: UDP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.90 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:92.123.106.90 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 40461 Protocol: UDP
+2020-10-20 15:46:17 INFO     Ip Source:216.58.206.74 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 216.58.206.74 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:35.246.6.109 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 35.246.6.109 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 15:46:17 INFO     Ip Source: ?? UDP Source Port: dhcpv6_client Ip Destination: ?? Destination Port: dhcpv6_server Protocol: UDP
+2020-10-20 15:46:18 INFO     Ip Source: 10.0.2.15 UDP Source Port: 47871 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:46:18 INFO     Ip Source: 10.0.2.15 UDP Source Port: 47871 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 15:46:18 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: PA Protocol: TCP
+2020-10-20 15:46:18 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 47871 Protocol: UDP
+2020-10-20 15:46:18 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 47871 Protocol: UDP
+2020-10-20 15:46:18 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:18 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:46:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 15:46:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: A Protocol: TCP
+2020-10-20 15:46:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: PA Protocol: TCP
+2020-10-20 15:46:21 INFO     Ip Source:10.0.2.15 Ip Destination: 44.241.216.67 Flags: FA Protocol: TCP
+2020-10-20 15:46:21 INFO     Ip Source:44.241.216.67 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:48:47 INFO     Ip Source: 10.0.2.17 UDP Source Port: 59179 Ip Destination: 239.255.255.250 Destination Port: 1900 Protocol: UDP
+2020-10-20 15:48:47 INFO     Ip Source: 10.0.2.17 UDP Source Port: 59179 Ip Destination: 239.255.255.250 Destination Port: 1900 Protocol: UDP
+2020-10-20 15:48:47 INFO     Ip Source: 10.0.2.17 UDP Source Port: 59179 Ip Destination: 239.255.255.250 Destination Port: 1900 Protocol: UDP
+2020-10-20 15:48:49 INFO     Ip Source: ?? UDP Source Port: 49905 Ip Destination: ?? Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:49 INFO     Ip Source: 10.0.2.17 UDP Source Port: 49905 Ip Destination: 224.0.0.252 Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:50 INFO     Ip Source: ?? UDP Source Port: 49905 Ip Destination: ?? Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:50 INFO     Ip Source: 10.0.2.17 UDP Source Port: 49905 Ip Destination: 224.0.0.252 Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:50 INFO     Ip Source: 10.0.2.17 UDP Source Port: 59179 Ip Destination: 239.255.255.250 Destination Port: 1900 Protocol: UDP
+2020-10-20 15:48:50 INFO     Ip Source: 10.0.2.17 UDP Source Port: 59179 Ip Destination: 239.255.255.250 Destination Port: 1900 Protocol: UDP
+2020-10-20 15:48:54 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.15 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:48:54 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: dest-unreach Code: port-unreachable Checksum: 0x1568 Protocol: ICMP
+2020-10-20 15:48:54 INFO     Ip Source: ?? UDP Source Port: 52171 Ip Destination: ?? Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:54 INFO     Ip Source: 10.0.2.17 UDP Source Port: 52171 Ip Destination: 224.0.0.252 Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:54 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:48:54 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 15:48:54 INFO     Ip Source: ?? UDP Source Port: 52171 Ip Destination: ?? Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:54 INFO     Ip Source: 10.0.2.17 UDP Source Port: 52171 Ip Destination: 224.0.0.252 Destination Port: hostmon Protocol: UDP
+2020-10-20 15:48:55 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.15 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:48:55 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: dest-unreach Code: port-unreachable Checksum: 0x1568 Protocol: ICMP
+2020-10-20 15:48:57 INFO     IP Source: 10.0.2.17IP Destination: 10.0.2.15 Type: echo-request Code: 0 Checksum: 0x4d56 Protocol: ICMP
+2020-10-20 15:48:57 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: echo-reply Code: 0 Checksum: 0x5556 Protocol: ICMP
+2020-10-20 15:48:57 INFO     Ip Source: 10.0.2.17 UDP Source Port: netbios_ns Ip Destination: 10.0.2.15 Destination Port: netbios_ns Protocol: UDP
+2020-10-20 15:48:57 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: dest-unreach Code: port-unreachable Checksum: 0x1568 Protocol: ICMP
+2020-10-20 15:48:58 INFO     IP Source: 10.0.2.17IP Destination: 10.0.2.15 Type: echo-request Code: 0 Checksum: 0x4d55 Protocol: ICMP
+2020-10-20 15:48:58 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: echo-reply Code: 0 Checksum: 0x5555 Protocol: ICMP
+2020-10-20 15:48:59 INFO     IP Source: 10.0.2.17IP Destination: 10.0.2.15 Type: echo-request Code: 0 Checksum: 0x4d54 Protocol: ICMP
+2020-10-20 15:48:59 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: echo-reply Code: 0 Checksum: 0x5554 Protocol: ICMP
+2020-10-20 15:49:00 INFO     IP Source: 10.0.2.17IP Destination: 10.0.2.15 Type: echo-request Code: 0 Checksum: 0x4d53 Protocol: ICMP
+2020-10-20 15:49:00 INFO     IP Source: 10.0.2.15IP Destination: 10.0.2.17 Type: echo-reply Code: 0 Checksum: 0x5553 Protocol: ICMP
+2020-10-20 15:49:04 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 15:49:04 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source: 10.0.2.15 UDP Source Port: 55596 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:56:58 INFO     Ip Source: 10.0.2.15 UDP Source Port: 55596 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:56:58 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 55596 Protocol: UDP
+2020-10-20 18:56:58 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 55596 Protocol: UDP
+2020-10-20 18:56:58 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: S Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: PA Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source:34.107.221.82 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:56:58 INFO     Ip Source:10.0.2.15 Ip Destination: 34.107.221.82 Flags: A Protocol: TCP
+2020-10-20 18:56:59 INFO     Ip Source: 10.0.2.15 UDP Source Port: 58151 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:56:59 INFO     Ip Source: 10.0.2.15 UDP Source Port: 58151 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:56:59 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 58151 Protocol: UDP
+2020-10-20 18:56:59 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 58151 Protocol: UDP
+2020-10-20 18:56:59 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: S Protocol: TCP
+2020-10-20 18:56:59 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 18:56:59 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:56:59 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 18:56:59 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57771 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:00 INFO     Ip Source: 10.0.2.15 UDP Source Port: 57771 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:00 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57771 Protocol: UDP
+2020-10-20 18:57:00 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 57771 Protocol: UDP
+2020-10-20 18:57:00 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.24 Flags: S Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:92.123.106.24 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 18:57:00 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.24 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.24 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:92.123.106.24 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 92.123.106.24 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35595 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:01 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35595 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:01 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35595 Protocol: UDP
+2020-10-20 18:57:01 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35595 Protocol: UDP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: S Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:52.13.211.193 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:23.236.62.147 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 23.236.62.147 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:52.13.211.193 Ip Destination: 10.0.2.15 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:52.13.211.193 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: A Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:52.13.211.193 Ip Destination: 10.0.2.15 Flags: PA Protocol: TCP
+2020-10-20 18:57:01 INFO     Ip Source:10.0.2.15 Ip Destination: 52.13.211.193 Flags: A Protocol: TCP
+2020-10-20 18:57:02 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35332 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:02 INFO     Ip Source: 10.0.2.15 UDP Source Port: 35332 Ip Destination: 192.168.1.1 Destination Port: domain Protocol: UDP
+2020-10-20 18:57:02 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35332 Protocol: UDP
+2020-10-20 18:57:02 INFO     Ip Source: 192.168.1.1 UDP Source Port: domain Ip Destination: 10.0.2.15 Destination Port: 35332 Protocol: UDP
+2020-10-20 18:57:02 INFO     Ip Source:10.0.2.15 Ip Destination: 93.184.220.29 Flags: S Protocol: TCP
+2020-10-20 18:57:02 INFO     Ip Source:93.184.220.29 Ip Destination: 10.0.2.15 Flags: SA Protocol: TCP
